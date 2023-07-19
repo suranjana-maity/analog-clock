@@ -1,0 +1,25 @@
+* {
+    margin: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#clock {
+    transform: rotate(-90deg);
+
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+canvas {
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: aqua;
+}
